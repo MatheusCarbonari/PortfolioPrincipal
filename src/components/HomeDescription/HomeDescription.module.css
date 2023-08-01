@@ -1,0 +1,21 @@
+.sectionHomeDescription__container {
+    width: 60%;
+    margin-bottom: 5rem;
+}
+
+.sectionHomeDescription__container p{
+    font-size: 1rem;
+}
+
+.descriptionTitle__container {
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.descriptionTitle__container h1 {
+    color: var(--white);
+    border-radius: 2rem;
+    padding: .2rem;
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+    font-size: 3rem;
+}

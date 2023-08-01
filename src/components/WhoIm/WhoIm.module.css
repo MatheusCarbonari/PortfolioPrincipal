@@ -1,0 +1,31 @@
+.sectionWhoIm__container {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0 0 0;
+}
+
+.whoIm__text__container {
+    width: 60%;
+}
+
+.whoIm__text__container h4 {
+    color: var(--rgba-purple);
+    margin-bottom: 2rem;
+}
+
+.whoIm__text__container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
+
+.whoIm__image__container {
+    background-image: var(--linearGradient-cards);
+    width: 40%;
+    text-align: center;
+    border-radius: 2rem;
+}

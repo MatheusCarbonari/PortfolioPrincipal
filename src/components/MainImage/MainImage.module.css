@@ -1,0 +1,7 @@
+.imagemPrincipal__container {
+    width: 491px;
+    height: 491px;
+    border: 10px solid var(--cor-borderButton);
+    border-radius: 50%;
+    background: url(../../assets/Ellipse\ 2.png) no-repeat center;
+}

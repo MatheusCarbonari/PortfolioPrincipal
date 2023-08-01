@@ -1,0 +1,14 @@
+.cardProjectImage__container {
+    width: 50%;
+    background-image: repeating-radial-gradient(circle, var(--radialGradient-ProjectImage));
+    filter: drop-shadow(0 0 0.95rem var(--rgba-purple));
+    text-align: left;
+    border-radius: 9%;
+}
+
+.cardProjectImage__container img {
+    width: 95%;
+    height: 95%;
+    filter: drop-shadow(0 0 0.95rem var(--rgba-purple));
+    border-radius: 16px;
+}

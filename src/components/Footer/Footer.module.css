@@ -1,0 +1,9 @@
+.footer_container {
+    background-color: var(--color-menu-footer);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer_container p {
+    font-size: .7rem;
+}

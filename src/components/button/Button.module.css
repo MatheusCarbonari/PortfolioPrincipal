@@ -1,0 +1,21 @@
+.button {
+    width: 177px;
+    height: 62px;
+    text-align: center;
+    border: 1px solid var(--cor-borderButton);
+    border-radius: 30px;
+    background-color: var(--color-backgroundDark);
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    transition: .5s;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: var(--branco);
+}
+
+.button:hover {
+    background-color: var(--cor-borderButton);
+    border: var(--branco);
+    color: var(--color-backgroundDark);
+}

@@ -1,0 +1,16 @@
+.workExperience__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-basis: calc(50% - 50%);
+    margin: 5rem 0;
+    background-image: url(../../assets/Gradient.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.workExperience__title {
+    margin-top: 5rem;
+}

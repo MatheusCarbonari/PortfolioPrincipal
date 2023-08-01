@@ -1,0 +1,36 @@
+.sectionSynthesis__container {
+    width: 100%;
+    height: 500px;
+    margin: 0 0 5rem 0;
+    background-color: var( --color-menu-footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.synthesis__second__container{
+    width: 70%;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.synthesis__text__container {
+    width: 60%;    
+}
+
+.synthesis__text__container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--rgba-purple);
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
+
+.synthesis__image__container {
+    background-image: var(--linearGradient-cards);
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    border-radius: 2rem;
+} 

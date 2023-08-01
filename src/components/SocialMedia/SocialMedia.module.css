@@ -1,0 +1,15 @@
+.socialMedia__container {
+    margin-right: 2rem;
+    display: inline;
+}
+
+.iconStyle {
+    color: var(--white);
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+    cursor: pointer;
+}
+
+.iconStyle:hover {
+    color: var(--rgba-purple);
+    filter: drop-shadow(0 0 0 var(--rgba-purple));
+}

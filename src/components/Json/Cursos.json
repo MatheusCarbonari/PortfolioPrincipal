@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "tipo": "Superior",
+        "nome": " Análise e Desenvolvimento de Sistemas",
+        "ano": "2022 - 2024",
+        "plataforma": "Anhanguera Educacional",
+        "descricao": "Superior em ADS",
+        "cursosNaFormacao": ""
+    },
+    {
+        "id": 2,
+        "tipo": "Curso",
+        "nome": "HTML5",
+        "ano": "2022",
+        "plataforma": "Udemy",
+        "descricao": "Curso introdutório sobre HTML5 e afins",
+        "cursosNaFormacao": ""
+    },
+    {
+        "id": 3,
+        "tipo": "Formação",
+        "nome": "Desenvolva aplicações Web com JavaScript",
+        "ano": "2023",
+        "plataforma": "Alura",
+        "descricao": "Formação em JavaScript, com diversos cursos dentro.",
+        "cursosNaFormacao": [
+            "JavaScript: Crie páginas dinâmicas",
+            "Manipulando o DOM", 
+            "Armazenando dados no navegador",
+            "Validações e reconhecimento de voz", 
+            "Consumindo e tratando dados de uma API", 
+            "Métodos de array",  
+            "Criando requisições", 
+            "Validando formulários"
+        ]
+    },
+    {
+        "id": 4,
+        "tipo": "Curso",
+        "nome": "PHP",
+        "ano": "2023",
+        "plataforma": "Udemy",
+        "descricao": "Programar de forma avançada com a linguagem PHP e interação com MySQL.",
+        "cursosNaFormacao": ""
+    },
+    {
+        "id": 5,
+        "tipo": "Formação",
+        "nome": "A partir do zero: HTML e CSS para projetos web",
+        "ano": "2023",
+        "plataforma": "Alura",
+        "descricao": "Formação em HTML e CSS, com diversos cursos dentro.",
+        "cursosNaFormacao": [
+            "HTML e CSS: ambientes de desenvolvimento", 
+            "estrutta de arquivos e tags",
+            "HTML e CSS: classes", 
+            "posicionamento e Flexbox",
+            "HTML e CSS: cabeçalho", 
+            "footer e variáveis CSS",
+            "HTML e CSS: trabalhando com responsividade e publicação de projetos",
+            "HTML e CSS: responsividade com mobile-first"
+        ]
+    },
+    {
+        "id": 6,
+        "tipo": "Curso",
+        "nome": "Lógica de Programação.",
+        "ano": "2022",
+        "plataforma": "Udemy",
+        "descricao": "Do VisualG ás principais linguagens do mercado.",
+        "cursosNaFormacao": ""
+    },
+    {
+        "id": 7,
+        "tipo": "Curso",
+        "nome": "Desenvolvimento WEB",
+        "ano": "2022",
+        "plataforma": "Udemy",
+        "descricao": "Curso do básico ao avançado, tudo sobre Desenvolvimento WEB.",
+        "cursosNaFormacao": ""
+    },
+    {
+        "id": 8,
+        "tipo": "Formação",
+        "nome": "Explore React com JavaScript",
+        "ano": "2023",
+        "plataforma": "Alura",
+        "descricao": "Formação em React JS até TypeScript. Com diversos cursos inclusos",
+        "cursosNaFormacao": ""
+    }
+]

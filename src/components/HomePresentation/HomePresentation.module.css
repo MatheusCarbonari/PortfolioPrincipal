@@ -1,0 +1,59 @@
+.presentantion__container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 10rem 0;
+}
+
+.presentantionImage__container {
+    position: relative;
+    border-radius: 70%;
+    width: 420px;
+    height: 350px;
+    background: linear-gradient( var(--rgba-purple), rgba(50, 15, 133, 0));
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
+
+.presentantionImage__container img{
+    width: 142px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.presentantionImage__container p {
+    position: absolute;
+    top: 49%;
+    left: -5%;
+    font-size: .7rem;
+    background-color: var(--color-backgroundDark);
+    color: var(--rgba-purple);
+    border-radius: 2rem;
+    padding: .2rem;
+}
+
+.presentantionText__container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: .5rem;
+    margin-left: -5rem;
+    z-index: 1;
+    letter-spacing: 1px;
+}
+
+.presentantionText__container p {
+    font-size: 1.5rem;
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
+
+.presentantionText__container h2 {
+    font-size: .5rem;
+    filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
