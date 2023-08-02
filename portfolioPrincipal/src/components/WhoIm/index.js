@@ -7,7 +7,7 @@ const WhoIm = () => {
             <div className={styles.whoIm__text__container}>
                 <h4>Oi, bem vindo</h4>
                 <h1>Eu sou o Matheus</h1>
-                <p>Busco oportunidade de transição de carreira para área de programação, aplicando minha experiência anterior e adquirindo novos conhecimentos em programação, com o objetivo de contribuir de forma efetiva e alcançar sucesso profissional nessa nova trajetória</p>
+                <p>Um apaixonado por desenvolvimento, atualmente focado em aprimorar minhas habilidades. Minha jornada recente inclui projetos onde explorei a construção de interfaces interativas e responsivas. Comprometido com a aprendizagem contínua, estou ansioso para enfrentar desafios e continuar crescendo como desenvolvedor</p>
             </div>
             <div className={styles.whoIm__image__container}>
                 <img src={imagemTeste} alt='imagem avatar'/>

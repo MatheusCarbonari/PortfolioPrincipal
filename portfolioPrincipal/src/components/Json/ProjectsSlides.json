@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nome": "Museu",
+        "imagem": "/img/Slides/Captura_Museu.png",
+        "tags": "React",
+        "descricao": "Projeto desenvolvido como uma landing Page, React e JS."
+    },
+    {
+        "id": 2,
+        "nome": "Space",
+        "imagem": "/img/Slides/Captura_Space.PNG",
+        "tags": "React",
+        "descricao": "Projeto desenvolvido como uma landing Page interativa, com  React e JS. Com a função de mostrar e filtrar imagens do espaço. Com listagem dinâmica. Sem o uso de banco de dados"
+    },
+    {
+        "id": 3,
+        "nome": "Organo",
+        "imagem": "/img/Slides/Captura_OrganoD&D.PNG",
+        "tags": "React",
+        "descricao": "Projeto desenvolvido para organizar personagens. Cria através de um formulário os cards dos personagem e organiza de acordo com as escolhas da guilda. Podendo haver interação com cores."
+    },
+    {
+        "id": 4,
+        "nome": "Museu",
+        "imagem": "/img/Slides/Captura_Museu.PNG",
+        "tags": "React",
+        "descricao": "Projeto desenvolvido como uma landing Page, com HTML, CSS, REact e JS."
+    },
+    {
+        "id": 5,
+        "nome": "Books",
+        "imagem": "/img/SlidesHTMLCSS/Captura_books.PNG",
+        "tags": "HtmlCSS",
+        "descricao": "Projeto desenvolvido como uma landing Page durante o curso da Alura. Foram utilizadas as tecnologias HTML e CSS, com grande foco em responsividade."
+    },
+    {
+        "id": 6,
+        "nome": "LandingPage",
+        "imagem": "/img/SlidesHTMLCSS/Captura_LandingPage.PNG",
+        "tags": "HtmlCSS",
+        "descricao": "Projeto desenvolvido como uma landing Page. Foram utilizadas as tecnologias HTML e CSS. Foi desenvolvida a partir do mobile-first."
+    },
+    {
+        "id": 7,
+        "nome": "Portfolio",
+        "imagem": "/img/SlidesHTMLCSS/Captura_portfolio.PNG",
+        "tags": "HtmlCSS",
+        "descricao": "Projeto desenvolvido durante um dos cursos da Alura. Serve com uma base ou para uso como portfolio principal. Desenvolvido utilizando HTML e CSS."
+    },
+    {
+        "id": 8,
+        "nome": "Bank Main",
+        "imagem": "/img/SlidesJS/Captura_bankMain.PNG",
+        "tags": "JS",
+        "descricao": "Projeto desenvolvido como uma página para um banco. Tem a home e pagina para cadastro de clientes. Utilizando JavaScript para validar dados e API para buscar o CEP e preencher o endereço de forma forma automática."
+    },
+    {
+        "id": 9,
+        "nome": "Formulario",
+        "imagem": "/img/SlidesJS/Captura_formulario.PNG",
+        "tags": "JS",
+        "descricao": "Projeto desenvolvido para ser um formulário simples. Tanto para login quanto para cadastro. Foi utilizado JavaScript para validações e para utilização de uma API"
+    }
+    
+]

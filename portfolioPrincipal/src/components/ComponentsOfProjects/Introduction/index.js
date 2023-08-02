@@ -4,7 +4,7 @@ const IntroductionOfProjects = () => {
     return (
         <section className={styles.introductionOfProjects__container}>
             <h1>Introdução aos projetos</h1>
-            <p>Busco oportunidade de transição de carreira para área de programação, aplicando minha experiência anterior e adquirindo novos conhecimentos em programação, com o objetivo de contribuir de forma efetiva e alcançar sucesso profissional nessa nova trajetória</p>
+            <p>Bem-vindo(a) à minha galeria de projetos! Aqui, você encontrará uma coleção diversificada de trabalhos que refletem minha paixão pelo desenvolvimento. Cada projeto é uma manifestação do meu compromisso com a criatividade, inovação e aprendizado constante. Sinta-se à vontade para explorar e descobrir como estou contribuindo para o mundo digital.</p>
         </section>
     )
 }

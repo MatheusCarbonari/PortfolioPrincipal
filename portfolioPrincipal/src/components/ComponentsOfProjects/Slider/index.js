@@ -1,22 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
-
 import styles from './Slider.module.css'
 import { motion } from 'framer-motion';
 
-import imagem1 from '../../../assets/Slides/Captura_books.PNG'
-import imagem2 from '../../../assets/Slides/Captura_LandingPage.PNG'
-import imagem3 from '../../../assets/Slides/Captura_Museu.PNG'
-import imagem4 from '../../../assets/Slides/Captura_Space.PNG'
-
-const imagens = [imagem1, imagem2, imagem3, imagem4]
-
-const Slider = () => {
+const Slider = ({projects}) => {
 
   const carousel = useRef();
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+    console.log(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
   }, [])
 
   const parent = {
@@ -26,6 +19,7 @@ const Slider = () => {
 
   return(
     <section className={styles.slider__container}>
+
       <motion.div
         ref={carousel}
         className={styles.slider__carrousel} 
@@ -35,25 +29,21 @@ const Slider = () => {
         <motion.div 
           className={styles.inner_carrousel} 
           drag="x"
-          dragConstraints={{ right: 0, left: -width}}
-          initial={{x:100}}
-          animate={{x: 0}}
-          transition={{duration: 0.8}}
-          
+          dragConstraints={{ right: 500, left: -width - 100}}
         >
 
-          {imagens.map(item => (
+          {projects.map(item => (
             <motion.div 
               className={styles.inner_carrousel__image} 
-              key={item}
+              key={item.id}
               variants={parent}
               initial="variantA"
               whileHover="variantB"
             >
-              <img src={item} alt='Imagem'/>
+              <img src={item.imagem} alt={item.nome}/>
+              <p>{item.descricao}</p>
             </motion.div>
           ))}
-
         </motion.div>
 
       </motion.div>
