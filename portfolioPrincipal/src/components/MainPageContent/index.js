@@ -4,12 +4,12 @@ import styles from './ContentePage.module.css';
 const MainPageContent = () => {
     return (
         <div className={styles.conteudo__container}>
-            <h4>Desenvolvedor</h4>
-            <h1>DevMatheus</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu leo mauris. Mauris vitae urna tristique, rutrum mauris quis, condimentum massa. Nullam tristique turpis vel ligula scelerisque, non sodales velit cursus. Phasellus vel fringilla metus, feugiat mattis quam. Suspendisse a fringilla magna. </p>
+            <h4>Bem-Vindo(a) ao Meu Mundo Digital</h4>
+            <h1>Pde me chamar de Matheus</h1>
+            <p>Aqui, convido você a mergulhar em minha jornada no desenvolvimento web. Sou movido pela paixão de criar soluções digitais envolventes. Explore minha evolução, projetos e descobertas nesta jornada emocionante. Sinta-se em casa e desfrute da minha jornada pelo mundo do desenvolvimento.</p>
             <div>
                 <Button to="/home">Portfólio</Button>
-                <Button>Portfólio</Button>
+                <Button to="https://github.com/MatheusCarbonari">Github</Button>
             </div>
         </div>
     )
