@@ -4,7 +4,7 @@ import CardProjectText from '../CardProjectText';
 
 const CardsFeaturedProjects = ({imageProject, projectTitle, children, direction}) => {
 
-    if(direction !== ""){
+    if(direction != ""){
         return (
             <div className={styles.cardsFeaturedProjects__container}>
                 <CardProjectImage imageProject={imageProject} />

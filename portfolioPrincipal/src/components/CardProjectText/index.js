@@ -5,7 +5,7 @@ const CardProjectText = ({children, projectTitle, left}) => {
         <div className={styles.cardProjectText__container}>
             <div className={(`
                 ${styles.cardProjectText__title__container}
-                ${left != "" ? styles.left : ""}
+                ${left === "left" ? styles.left : ""}
             `)}>
                 <h4>Projeto em Destaque</h4>
                 <h2>{projectTitle}</h2>
