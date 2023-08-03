@@ -4,6 +4,7 @@ import Projects from "./Pages/Projects";
 import InicialPage from "./Pages/InicialPage";
 import HomePage from "./Pages/HomePage";
 import StandardPage from "./components/StandardPage";
+import PageNotFound from "./Pages/PageNotFound";
 
 function AppRoute() {
   return (
@@ -17,8 +18,9 @@ function AppRoute() {
           <Route index element={<HomePage/>}/>
           <Route path="/home/projects" element={<Projects/>}/>
           <Route path="/home/aboutme" element={<AboutMe/>}/>
-          <Route path="*" element={<div>Página não encontrada</div>}/>
         </Route>
+        
+        <Route path="*" element={<PageNotFound/>}/>
 
       </Routes>
 

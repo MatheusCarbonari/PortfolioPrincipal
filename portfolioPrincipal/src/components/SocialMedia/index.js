@@ -13,7 +13,7 @@ const SocialMedia = () => {
             </a>
         </li>
         <li className={styles.socialMedia__container}>
-            <a href='www.linkedin.com/in/matheus-russi-carbonari-a40868183' target='_blank' rel="noreferrer">
+            <a href="http://www.linkedin.com/in/matheus-russi-carbonari-a40868183" target='_blank' rel="noreferrer">
                 <FaLinkedin
                     size={35}
                     className={styles.iconStyle}
