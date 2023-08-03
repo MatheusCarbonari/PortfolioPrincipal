@@ -1,21 +1,21 @@
 import CardsFeaturedProjects from '../CardsFeaturedProjects';
 import styles from './FeaturedProjects.module.css';
-import imageProject from '../../assets/Mask group.png';
+
+// imagens para o destaque
+import imageProject from '../../assets/Captura_helloWord.PNG';
+import imageProject2 from '../../assets/Captura_meteora.PNG'
+
+const enderecoProject = "https://blog-hello-word.vercel.app/"
+const enderecoProject2 = "https://meteora-challange.vercel.app/"
 
 const FeaturedProjects = () => {
     return (
         <section className={styles.featuredProjects__container}>
-            <CardsFeaturedProjects direction="" imageProject={imageProject}  projectTitle="Landing Page Meteora">
-                <p>A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed audio
-                information about each track. Create and save new playlists of
-                recommended tracks based on your existing playlists and more.</p>
+            <CardsFeaturedProjects direction="" imageProject={imageProject} endereco={enderecoProject} projectTitle="Blog Hello Word">
+                <p>Projeto desenvolvido para ser um blog. Podendo ser usado até como Portfólio. Foi construído o React Js, e com enfase na arvore de rotas do DOM, com react-router-dom.</p>
             </CardsFeaturedProjects>
-            <CardsFeaturedProjects direction="left" imageProject={imageProject}  projectTitle="Landing Page Meteora">
-                <p>A web app for visualizing personalized Spotify data. View your
-                top artists, top tracks, recently played tracks, and detailed audio
-                information about each track. Create and save new playlists of
-                recommended tracks based on your existing playlists and more.</p>
+            <CardsFeaturedProjects direction="left" imageProject={imageProject2} endereco={enderecoProject2} projectTitle="Landing Page Meteora">
+                <p>Projeto desenvolvido para ser uma pagina de um comercio de roupas digitais. Foi desenvolvido durante o challenge da Alura e utiliza de HTML, CSS e JS. Faz conexão com API e utiliza de Node.js para simular essa conexão.</p>
             </CardsFeaturedProjects>
         </section>
     )

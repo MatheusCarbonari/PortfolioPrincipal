@@ -4,7 +4,7 @@
         "nome": "Museu",
         "imagem": "/img/Slides/Captura_Museu.png",
         "tags": "React",
-        "descricao": "Projeto desenvolvido como uma landing Page, React e JS."
+        "descricao": "Projeto desenvolvido como uma landing Page para um museu. Utiliza de React JS."
     },
     {
         "id": 2,
@@ -22,10 +22,10 @@
     },
     {
         "id": 4,
-        "nome": "Museu",
-        "imagem": "/img/Slides/Captura_Museu.PNG",
+        "nome": "Hello Word",
+        "imagem": "/img/Slides/Captura_helloWord.PNG",
         "tags": "React",
-        "descricao": "Projeto desenvolvido como uma landing Page, com HTML, CSS, REact e JS."
+        "descricao": "Projeto desenvolvido para ser um blog. Podendo ser usado até como Portfólio. Foi construído o React Js, e com enfase na arvore de rotas do DOM, com react-router-dom."
     },
     {
         "id": 5,
@@ -58,9 +58,16 @@
     {
         "id": 9,
         "nome": "Formulario",
-        "imagem": "/img/SlidesJS/Captura_formulario.PNG",
+        "imagem": "/img/SlidesJS/Captura_formAPI.PNG",
         "tags": "JS",
-        "descricao": "Projeto desenvolvido para ser um formulário simples. Tanto para login quanto para cadastro. Foi utilizado JavaScript para validações e para utilização de uma API"
+        "descricao": "Projeto desenvolvido para ser um formulário simples. Serve para cadastro de clientes. Utiliza JavaScript para validar campos e utilizar uma API, que serve para buscar endereço através do CEP."
+    },
+    {
+        "id": 10,
+        "nome": "Meteora",
+        "imagem": "/img/SlidesJS/Captura_meteora.PNG",
+        "tags": "JS",
+        "descricao": "Projeto desenvolvido para ser uma pagina de um comercio de roupas digitais. Foi desenvolvido durante o challenge da Alura e utiliza de HTML, CSS e JS. Faz conexão com API e utiliza de Node.js para simular essa conexão."
     }
     
 ]
