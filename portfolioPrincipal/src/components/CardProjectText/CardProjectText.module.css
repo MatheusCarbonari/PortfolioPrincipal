@@ -39,3 +39,27 @@
     padding-left: 1rem;
     z-index: 1;
 }
+
+@media screen and (max-width:480px) {
+    .cardProjectText__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardProjectText__text__container {
+        width: 110%;
+        height: 170px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+}

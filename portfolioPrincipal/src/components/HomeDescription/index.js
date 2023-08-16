@@ -9,7 +9,6 @@ const HomeDescription = () => {
             </div>
             <div>
                 <p>Sou apaixonado por tecnologia. Há 1 ano e meio, iniciei uma jornada autodidata em desenvolvimento de software, cursando ADS e participando de diversos cursos em JS, PHP, Phython, MySQL, HTML. Embora sem emprego fixo, mergulhei em projetos pessoais, aprimorando minhas habilidades individuais. Cada linha de código escrita, cada projeto concluído, foi um passo em direção ao meu objetivo: tornar-me um desenvolvedor de destaque. Estou pronto para contribuir com projetos complexos e agregar valor a uma equipe inovadora. Vamos trilhar juntos um futuro de sucesso!</p>
-                <p>Matheus Carbonari</p>
             </div>
         </section>
     )

@@ -17,3 +17,10 @@
     list-style: none;
     margin-top: 2rem;
 }
+
+@media screen and (max-width:480px) {
+    .sectionContact__container {
+        width: 90%;
+        text-align: center;
+    }
+}

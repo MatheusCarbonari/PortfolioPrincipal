@@ -16,3 +16,9 @@
 .link__destacado:hover {
     text-decoration: underline solid var(--color-purple);
 }
+
+@media screen and (max-width:480px) {
+    .link{
+        margin-right: 1rem;
+    }
+}

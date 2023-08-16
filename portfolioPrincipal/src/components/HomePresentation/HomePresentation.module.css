@@ -57,3 +57,35 @@
     font-size: .5rem;
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
 }
+
+@media screen and (max-width:480px) {
+    .presentantion__container {
+        width: 90%;
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+
+    .presentantionImage__container {
+        width: 300px;
+        height: 350px;
+    }
+
+    .presentantionImage__container p {
+        left: -7%;
+    }
+
+    .presentantionText__container {
+        width: 100%;
+        margin-left: 1rem;
+        z-index: 1;
+        letter-spacing: 0px;
+        line-height: 29px;
+    }
+
+    .presentantionText__container h2 {
+        font-size: .9rem;
+        filter: drop-shadow(0 0 0 var(--rgba-purple));
+        letter-spacing: 1px;
+    }
+
+}

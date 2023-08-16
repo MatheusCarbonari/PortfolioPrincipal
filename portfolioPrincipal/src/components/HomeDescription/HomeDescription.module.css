@@ -19,3 +19,14 @@
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
     font-size: 3rem;
 }
+
+@media screen and (max-width:480px) {
+    .sectionHomeDescription__container {
+        width: 90%;
+        margin-bottom: 2.5rem;
+    }
+
+    .descriptionTitle__container h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,7 +1,14 @@
 .imagemPrincipal__container {
-    width: 491px;
-    height: 491px;
+    width: 30.68rem;
+    height: 30.68rem;
     border: 10px solid var(--cor-borderButton);
     border-radius: 50%;
     background: url(../../assets/Ellipse\ 2.png) no-repeat center;
+}
+
+@media screen and (max-width:480px) {
+    .imagemPrincipal__container{
+        width: 80%;
+        height: 20rem;
+    }
 }

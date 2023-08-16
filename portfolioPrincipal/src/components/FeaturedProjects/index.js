@@ -15,7 +15,7 @@ const FeaturedProjects = () => {
                 <p>Projeto desenvolvido para ser um blog. Podendo ser usado até como Portfólio. Foi construído o React Js, e com enfase na arvore de rotas do DOM, com react-router-dom.</p>
             </CardsFeaturedProjects>
             <CardsFeaturedProjects direction="left" imageProject={imageProject2} endereco={enderecoProject2} projectTitle="Landing Page Meteora">
-                <p>Projeto desenvolvido para ser uma pagina de um comercio de roupas digitais. Foi desenvolvido durante o challenge da Alura e utiliza de HTML, CSS e JS. Faz conexão com API e utiliza de Node.js para simular essa conexão.</p>
+                <p>Projeto desenvolvido para ser uma pagina de um comercio de roupas digitais. Utiliza de HTML, CSS e JS. Faz conexão com API e utiliza de Node.js para simular essa conexão.</p>
             </CardsFeaturedProjects>
         </section>
     )
