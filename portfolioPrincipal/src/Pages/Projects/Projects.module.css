@@ -25,3 +25,15 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width:480px) {
+    .mainProjects__container {
+        gap: 0px;
+    }
+
+    .sectionProjects__slider__react h2 {
+        font-size: 2rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}

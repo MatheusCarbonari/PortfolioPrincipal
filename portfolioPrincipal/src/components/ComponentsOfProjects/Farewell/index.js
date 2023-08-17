@@ -8,7 +8,7 @@ const titleFarewall = "Agradeço por Sua Visita"
 
 const Farewell = () => {
     return(
-        <section>
+        <section className={styles.stilesfarewll__conyainer}>
             <AboutMeContact text={textFarewell} title={titleFarewall}/>
         </section>
     )

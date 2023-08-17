@@ -9,7 +9,7 @@ const Synthesis = () => {
                     <img src={testImage} alt='imagem avatar'/>
                 </div>
                 <div className={styles.synthesis__text__container}>
-                    <h2>Síntese</h2>
+                    <h2>Objetivo</h2>
                     <p>Busco oportunidade de transição de carreira para a programação, combinando minha paixão por programação e meu histórico de formação, como JS, HTML, CSS e PHP. Motivado e adaptável, estou comprometido em adquirir novos conhecimentos e contribuir de forma significativa para o sucesso da equipe e da organização</p>
                 </div>
             </div>

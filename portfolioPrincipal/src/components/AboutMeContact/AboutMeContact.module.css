@@ -42,3 +42,24 @@
     display: inline;
     font-size: 1rem;
 }
+
+@media screen and (max-width:480px) {
+    .aboutMeContact__container {
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .aboutMeContact__title {
+        width: 100%;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .aboutMeContact__title p {
+        padding-bottom: 1rem;
+    }
+
+    .aboutMeContact__content {
+        width: 100%;
+        text-align: center;
+    }
+}

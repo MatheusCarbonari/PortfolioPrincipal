@@ -29,3 +29,22 @@
     text-align: center;
     border-radius: 2rem;
 }
+
+@media screen and (max-width:480px) {
+    .sectionWhoIm__container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        gap: 5rem;
+        margin: 4rem 0 5rem 0;
+    }
+
+    .whoIm__text__container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .whoIm__image__container {
+        display: none;
+    }
+}

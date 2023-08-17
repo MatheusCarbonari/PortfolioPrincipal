@@ -10,8 +10,8 @@ const Menu = () => {
                 <ul>
                     <li>
                         <MenuLink to="/home">Home</MenuLink>
-                        <MenuLink to="/home/aboutme">About Me</MenuLink>
-                        <MenuLink to="/home/projects">Projects</MenuLink>
+                        <MenuLink to="/home/aboutme">Sobre Mim</MenuLink>
+                        <MenuLink to="/home/projects">Projetos</MenuLink>
                     </li>
                 </ul>
             </nav>

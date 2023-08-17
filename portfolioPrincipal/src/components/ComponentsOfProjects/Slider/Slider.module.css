@@ -59,3 +59,30 @@
     color: var(--white);
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
 }
+
+@media screen and (max-width:480px) {
+    .slider__container {
+        margin-top: 0;
+        height: 430px;
+    }
+
+    .slider__carrousel {
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .inner_carrousel {
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .inner_carrousel__image {
+        padding: 0;
+        padding-bottom: 14px;
+    }
+
+    .inner_carrousel__image img {
+        width: 280px;
+        height: 180px;
+    }
+}

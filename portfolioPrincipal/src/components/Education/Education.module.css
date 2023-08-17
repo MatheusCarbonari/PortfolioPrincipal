@@ -19,3 +19,22 @@
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
     font-size: 2rem;
 }
+
+@media screen and (max-width:480px) {
+
+    .sectionEducation__container {
+        margin-bottom: 1rem;
+    }
+
+    .sectionEducation__container p{
+        padding: 0 1rem;        
+    }
+
+    .sectionEducation__container h2{
+        padding: 0 1rem;        
+    }
+
+    .sectionEducation__container div {
+        justify-content: center;
+    }
+}
