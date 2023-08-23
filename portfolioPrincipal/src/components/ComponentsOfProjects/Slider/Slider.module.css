@@ -64,11 +64,12 @@
     background-color: var(--rgba-purple);
     color: var(--white);
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: .7rem;
     text-align: center;
     width: 130px;
     border-radius: 16px;
-    font-size: .7rem;
+    font-size: .8rem;
+    text-decoration: none;
 }
 
 .linkProjetos:hover {

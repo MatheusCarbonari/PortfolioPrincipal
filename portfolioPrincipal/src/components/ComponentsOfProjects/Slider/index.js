@@ -35,7 +35,7 @@ const Slider = ({projects}) => {
             >
               <img src={item.imagem} alt={item.nome}/>
               <p>{item.descricao}</p>
-              <a className={styles.linkProjetos}>Visite o projeto</a>
+              <a className={styles.linkProjetos} target='_blank' href={item.link}>Visite o projeto</a>
             </motion.div>
           ))}
         </motion.div>
