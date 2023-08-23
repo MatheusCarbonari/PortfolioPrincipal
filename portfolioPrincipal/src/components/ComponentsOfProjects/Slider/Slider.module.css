@@ -31,33 +31,50 @@
 .inner_carrousel {
     display: flex;
     width: 100%;
+    height: auto;
     gap: 11rem;
 }
 
 .inner_carrousel__image {
+    display: flex;
+    flex-direction: column;
     min-height: 200px;
     min-width: 300px;
     padding: 14px;
     margin: 0 2rem;
-    position: relative;
 }
 
 .inner_carrousel__image img {
     cursor: grab;
     width: 400px;
-    height: 300px;
+    height: 280px;
     border-radius: 12px;
     pointer-events: none;
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
 }
 
 .inner_carrousel__image p{
-    position: absolute;
-    top: 98%;
-    right: 0%;
-    font-size: 0.7rem;
+    width: 400px;
+    font-size: 0.8rem;
     color: var(--white);
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+}
+
+.linkProjetos {
+    background-color: var(--rgba-purple);
+    color: var(--white);
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 130px;
+    border-radius: 16px;
+    font-size: .7rem;
+}
+
+.linkProjetos:hover {
+    cursor: pointer;
+    color: var(--rgba-purple);
+    background-color: var(--color-menu-footer);
 }
 
 @media screen and (max-width:480px) {

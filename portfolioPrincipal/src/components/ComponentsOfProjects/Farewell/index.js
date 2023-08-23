@@ -1,4 +1,3 @@
-import SocialMedia from '../../SocialMedia';
 import AboutMeContact from '../../AboutMeContact';
 import styles from './Farewell.module.css';
 

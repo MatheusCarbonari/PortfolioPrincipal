@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import styles from './Slider.module.css'
 import { motion } from 'framer-motion';
+import Button from 'components/button';
 
 const Slider = ({projects}) => {
 
@@ -11,11 +12,6 @@ const Slider = ({projects}) => {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
     console.log(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
   }, [])
-
-  const parent = {
-    variantA: { scale: 1},
-    variantB: { scale: 1.2},
-  }
 
   return(
     <section className={styles.slider__container}>
@@ -36,12 +32,10 @@ const Slider = ({projects}) => {
             <motion.div 
               className={styles.inner_carrousel__image} 
               key={item.id}
-              variants={parent}
-              initial="variantA"
-              whileHover="variantB"
             >
               <img src={item.imagem} alt={item.nome}/>
               <p>{item.descricao}</p>
+              <a className={styles.linkProjetos}>Visite o projeto</a>
             </motion.div>
           ))}
         </motion.div>

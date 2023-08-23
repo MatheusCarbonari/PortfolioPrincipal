@@ -4,20 +4,23 @@
         "nome": "Museu",
         "imagem": "/img/Slides/Captura_Museu.png",
         "tags": "React",
-        "descricao": "Projeto desenvolvido como uma landing Page para um museu. Utiliza de React JS."
+        "link": "https://museu-kohl.vercel.app/",
+        "descricao": "Projeto desenvolvido com React JS, CSS e HTML5, para ser uma landing Page de um museu. Com uso de maps para localização e video importado do YouTube. Não utiliza de API para essas buscas."
     },
     {
         "id": 2,
         "nome": "Space",
         "imagem": "/img/Slides/Captura_Space.PNG",
         "tags": "React",
-        "descricao": "Projeto desenvolvido como uma landing Page interativa, com  React e JS. Com a função de mostrar e filtrar imagens do espaço. Com listagem dinâmica. Sem o uso de banco de dados"
+        "link": "https://space-phi-nine.vercel.app/",
+        "descricao": "Projeto desenvolvido como uma landing Page interativa, com  React e JS. Com a função de mostrar e filtrar imagens do espaço. Com listagem dinâmica. Sem o uso de banco de dados."
     },
     {
         "id": 3,
         "nome": "Organo",
         "imagem": "/img/Slides/Captura_OrganoD&D.PNG",
         "tags": "React",
+        "link": "https://organo-alpha-topaz.vercel.app/",
         "descricao": "Projeto desenvolvido para organizar personagens. Cria através de um formulário os cards dos personagem e organiza de acordo com as escolhas da guilda. Podendo haver interação com cores."
     },
     {
@@ -25,13 +28,15 @@
         "nome": "Hello Word",
         "imagem": "/img/Slides/Captura_helloWord.PNG",
         "tags": "React",
-        "descricao": "Projeto desenvolvido para ser um blog. Podendo ser usado até como Portfólio. Foi construído o React Js, e com enfase na arvore de rotas do DOM, com react-router-dom."
+        "link": "https://blog-hello-word.vercel.app/",
+        "descricao": "Projeto desenvolvido para ser um blog e podendo ser usado até como Portfólio. Foi construído o React Js, e com enfase na arvore de rotas do DOM, com react-router-dom. Listagem dinâmica através de dados mockados"
     },
     {
         "id": 5,
         "nome": "Books",
         "imagem": "/img/SlidesHTMLCSS/Captura_books.PNG",
         "tags": "HtmlCSS",
+        "link": "https://books-lilac-kappa.vercel.app/",
         "descricao": "Projeto desenvolvido como uma landing Page durante o curso da Alura. Foram utilizadas as tecnologias HTML e CSS, com grande foco em responsividade."
     },
     {
@@ -39,6 +44,7 @@
         "nome": "LandingPage",
         "imagem": "/img/SlidesHTMLCSS/Captura_LandingPage.PNG",
         "tags": "HtmlCSS",
+        "link": "https://landing-page-one-rose-38.vercel.app/",
         "descricao": "Projeto desenvolvido como uma landing Page. Foram utilizadas as tecnologias HTML e CSS. Foi desenvolvida a partir do mobile-first."
     },
     {
@@ -46,6 +52,7 @@
         "nome": "Portfolio",
         "imagem": "/img/SlidesHTMLCSS/Captura_portfolio.PNG",
         "tags": "HtmlCSS",
+        "link": "https://portfolio-tau-two-20.vercel.app/",
         "descricao": "Projeto desenvolvido durante um dos cursos da Alura. Serve com uma base ou para uso como portfolio principal. Desenvolvido utilizando HTML e CSS."
     },
     {
@@ -53,6 +60,7 @@
         "nome": "Bank Main",
         "imagem": "/img/SlidesJS/Captura_bankMain.PNG",
         "tags": "JS",
+        "link": "https://bankmain-matheuscarbonari.vercel.app/",
         "descricao": "Projeto desenvolvido como uma página para um banco. Tem a home e pagina para cadastro de clientes. Utilizando JavaScript para validar dados e API para buscar o CEP e preencher o endereço de forma forma automática."
     },
     {
@@ -60,6 +68,7 @@
         "nome": "Formulario",
         "imagem": "/img/SlidesJS/Captura_formAPI.PNG",
         "tags": "JS",
+        "link": "https://form-api-inky.vercel.app/",
         "descricao": "Projeto desenvolvido para ser um formulário simples. Serve para cadastro de clientes. Utiliza JavaScript para validar campos e utilizar uma API, que serve para buscar endereço através do CEP."
     },
     {
@@ -67,6 +76,7 @@
         "nome": "Meteora",
         "imagem": "/img/SlidesJS/Captura_meteora.PNG",
         "tags": "JS",
+        "link": "https://meteora-challange.vercel.app/",
         "descricao": "Projeto desenvolvido para ser uma pagina de um comercio de roupas digitais. Foi desenvolvido durante o challenge da Alura e utiliza de HTML, CSS e JS. Faz conexão com API e utiliza de Node.js para simular essa conexão."
     }
     
