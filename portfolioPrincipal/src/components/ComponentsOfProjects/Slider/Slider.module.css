@@ -53,11 +53,12 @@
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
 }
 
-.inner_carrousel__image p{
+.inner_carrousel__image p {
     width: 400px;
     font-size: 0.8rem;
     color: var(--white);
     filter: drop-shadow(0 0 0.75rem var(--rgba-purple));
+    margin-top: .7rem;
 }
 
 .linkProjetos {
@@ -102,5 +103,11 @@
     .inner_carrousel__image img {
         width: 280px;
         height: 180px;
+    }
+
+    .inner_carrousel__image p {
+        width: 280px;
+        font-size: .8rem;
+        text-align: center;
     }
 }
